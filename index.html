@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movie Recap Maker — Video ကနေ Recap Video ဖန်တီးတဲ့ app</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: sans-serif; background: #0e0d16; color: #f1eefa;
+    display: flex; justify-content: center;
+  }
+  .wrap { max-width: 560px; width: 100%; padding: 40px 22px 56px; text-align: center; }
+  .icon {
+    width: 120px; height: 120px; margin: 0 auto 18px; border-radius: 28px;
+    background: #6D28D9; display: flex; align-items: center; justify-content: center;
+    overflow: hidden; box-shadow: 0 10px 30px rgba(109,40,217,.45);
+  }
+  .icon img { width: 100%; height: 100%; object-fit: cover; }
+  h1 { font-size: 32px; margin: 6px 0 4px; }
+  .tag { color: #c3b8dd; font-size: 16px; margin-bottom: 30px; }
+  .btn {
+    display: block; margin: 0 auto 14px; max-width: 340px; padding: 15px 20px;
+    border-radius: 14px; background: #7C3AED; color: #fff; font-size: 18px;
+    text-decoration: none; font-weight: bold;
+  }
+  .btn:active { background: #6D28D9; }
+  .note { color: #9a8fb5; font-size: 13px; margin-bottom: 34px; }
+  .feats { text-align: left; margin: 0 auto 34px; max-width: 430px; line-height: 1.9; font-size: 16px; }
+  .feats b { color: #d6c9f5; }
+  .card {
+    background: #17141f; border: 1px solid #2c2738; border-radius: 16px;
+    padding: 18px 20px; text-align: left; max-width: 430px; margin: 0 auto; line-height: 1.8;
+  }
+  .card h2 { margin: 0 0 6px; font-size: 18px; }
+  .ad { margin: 26px auto; text-align: center; }
+  .ad-wide { margin: 26px auto; text-align: center; overflow: hidden; max-width: 100%; }
+  footer { margin-top: 40px; color: #6f6584; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="icon"><img src="icon.png" alt="Movie Recap Maker"></div>
+  <h1>Movie Recap Maker</h1>
+  <div class="tag">Video တစ်ခု ထည့်လိုက်ရုံနဲ့ မြန်မာ အသံဇာတ်ကြောင်း + subtitle ပါတဲ့ recap video အဖြစ် ပြောင်းပေးတဲ့ app</div>
+
+  <a class="btn" href="https://github.com/stupidiots/Movie-Recap-Maker/releases/latest/download/MovieRecapMaker.apk">⬇️ Android ဒေါင်းရန်</a>
+  <div class="note">ဒေါင်းပြီးရင် install လုပ်ပါ — "Unknown apps" ခွင့်ပြုချက် တောင်းရင် ခွင့်ပြုပေးပါ။ နောက်ဆုံးထွက် version ကို ဒီကပဲ အမြဲ ရနိုင်ပါတယ်။</div>
+
+  <!-- AD SLOT: 320x50 -->
+
+  <div class="feats">
+    🎬 <b>အလိုအလျောက် pipeline</b> — video ကနေ စာတမ်း → ဇာတ်ညွှန်း → အသံ → video အပြည့်<br>
+    🎙️ <b>AI အသံ ၃၀ မျိုး</b> — Gemini voice တွေ ကြိုက်ရာ ရွေးနိုင်<br>
+    💬 <b>Subtitle + ဘာသာပြန်</b> — မြန်မာ အပါအဝင် ဘာသာစကား ၁၁ မျိုး<br>
+    🛡️ <b>Copyright layer</b> — mirror, zoom, speed, pitch အလိုအလျောက် ညှိပြီး<br>
+    ⚙️ <b>Setting အကုန်</b> — ကိုယ်ကြိုက် ညှိနိုင်၊ live preview နဲ့<br>
+    🔑 <b>ကိုယ့် Gemini key</b> နဲ့ သုံးတာ — server မလို၊ ဖုန်းထဲမှာပဲ အကုန် လုပ်တယ်
+  </div>
+
+  <!-- AD SLOT: 300x250 -->
+
+  <div class="card">
+    <h2>သုံးနည်း</h2>
+    ၁။ အပေါ်က ခလုတ်နဲ့ app ကို ဒေါင်းပြီး install လုပ်ပါ<br>
+    ၂။ Google AI Studio ကနေ Gemini API key အခမဲ့ ယူပြီး app ထဲ ထည့်ပါ<br>
+    ၃။ Recap လုပ်ချင်တဲ့ video ကို ရွေးပါ<br>
+    ၄။ ဇာတ်ညွှန်းကို စစ်ပြီး ပြင်ချင်ရင် ပြင်၊ ပြီးရင် video ထုတ်ပါ
+  </div>
+
+  <!-- AD SLOT: Native Banner -->
+
+  <!-- AD SLOT: 728x90 -->
+
+  <footer>© Movie Recap Maker</footer>
+</div>
+
+<!-- AD SLOT: Social Bar -->
+</body>
+</html>
